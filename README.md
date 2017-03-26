@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project README
-*- read.table is used for reading data in steps 1.1-1.3*
-*- dplyr is used in this project*
+*1. Read.table is used for reading data in steps 1.1-1.3*
+*2. dplyr is used in this project*
 
 The goal of this project is to prepare tidy data that can be used for later analysis.
 

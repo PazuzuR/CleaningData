@@ -18,7 +18,7 @@ Tidy data file contains transformed data from "Human Activity Recognition Using 
 4. tBodyAccMeanY
 5. tBodyAccMeanZ
 6. tBodyAccStdX                
-7.tBodyAccStdY                 
+7. tBodyAccStdY                 
 8. tBodyAccStdZ                
 9. tGravityAccMeanX             
 10. tGravityAccMeanY            

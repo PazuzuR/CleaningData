@@ -25,7 +25,7 @@ subject_data <- rbind(subject_test, subject_train)
 # 	5.1. name variables
 names(data) <- features$V2
 #	5.2. name activities
-data_labels <- merge(data_labels, activity_labels, by="V1", sort=FALSE)
+data_labels <- left_join(data_labels, activity_labels, by="V1")
 #	5.3. get only mean and std columns
 tidy_data <- data[grep("mean|std", names(data))]
 #	5.4. make variables names tidy

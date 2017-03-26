@@ -5,6 +5,7 @@ Tidy data file contains transformed data from "Human Activity Recognition Using 
 1. Data files are merged so there is only one data file.
 2. Only mean and std variables are get.
 3. Activity IDs are replaced with descriptive names.
+4. Data is grouped by subject and activity with mean aggregation.
 
 #### Data set columns
 *Description for columns 3-81 can be found in original data set's features info file.*

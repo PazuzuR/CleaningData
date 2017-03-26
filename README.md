@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project README
-*1. Read.table is used for reading data in steps 1.1-1.3.*
-*2. dplyr is used in this project.*
+1. *Read.table is used for reading data in steps 1.1-1.3.*
+2. *dplyr is used in this project.*
 
 The goal of this project is to prepare tidy data that can be used for later analysis.
 
@@ -24,7 +24,7 @@ The written script does following.
 ###### 2. Make data tidy
 
 1. Set names for variables from features read in step 1.1.
-2. Merge activity labels read in step 1.1 with activities.
+2. Left join activity labels read in step 1.1 with activities.
 3. Using grep filter out only mean and std columns.
 4. Make variables names tidy.
 5. Combine data and labels by columns.
